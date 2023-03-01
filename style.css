@@ -1,0 +1,354 @@
+
+body {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header.header_top {
+    background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img.cover-profile {
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+header.header_top h1 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+header.header_top p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+div.cover-contact p {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+div.cover-contact  {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-left: 3px solid blue;
+    padding-left: 8px;
+}
+
+div.cover-contact a {
+    color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.contact-button  {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 3px solid blue ;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: black;
+    transition: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.contact-button:hover  {
+    cursor: pointer;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: white 3px solid;
+    color: white;
+    transition: all 1.5s;
+}
+
+div.web_dev_img  {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    text-align:center;
+}
+
+div.web_dev_img img  {
+    display: inline block;
+    margin-top: 15px;
+    width: 140px;
+    height: 110px;
+    margin-left:10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+div.separateur1 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 25%;
+    height: 3px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.video_c  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+section.video_c video {
+    padding-top: 5px;
+    position: relative;
+    margin-top: 10px;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid blue;
+
+}
+
+div.separateur3 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 3px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+
+table {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border-spacing: 20px 20px;
+}
+
+table th, td {
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid rgb(3, 199, 238);
+    padding: 15px 40px;
+    background-color: #000046;
+    color: #1CB5E0;
+    font-weight: bolder;
+}
+
+table th:hover, td:hover {
+    border: 4px solid rgb(234, 230, 13);
+}
+
+div.type_paiement {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+div.type_paiement h3 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: underline 2px yellow;
+    border-radius: 5px;
+}
+
+div.type_paiement p {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 0px;
+    color: #1a1ad1;
+}
+
+div.type_paiement img {
+    margin-bottom: 20px;
+}
+
+div.reseaux {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+div.reseaux img {
+    position: relative;
+    display:inline-block;
+    margin-right: 10px;
+    width: 30px;
+}
+
+section.Film_arrived {
+    border-left: 3px solid rgb(6, 6, 6);
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-weight: 300;
+    color: blue;
+}
+
+div.separateur2 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 3px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+div.model1 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    div.web_dev_img  {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        text-align: center;
+    }
+    
+    div.web_dev_img img  {
+        display: inline block;
+        margin-top: 15px;
+        height: 300px;
+        width: 350px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    section.video_c  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     
+     section.video_c video {
+         position: relative;
+         margin-top: 10px;
+         width: 65%;
+         height: 350px;
+         border-radius: 5px;
+         border: 1px solid blue;
+     
+     }
+    
+    .contact-button:hover  {
+    cursor: pointer;
+    transition: cubic-bezier(0.4, 0, 1, 1);
+}
+
+    table th, td {
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+        border: 3px solid rgb(3, 199, 238);
+        padding: 20px 150px;
+        background-color: #000046;
+        color: #1CB5E0;
+        font-weight: bolder;
+    }
+
+    section.Film_arrived {
+        border-left: 0px solid rebeccapurple;
+        padding-left: 10px;
+        border-radius: 3px;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height:2;
+        text-align: left;
+        font-size: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: blue;
+    }
+
+    div.model1 img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 400px;
+        height:320px ;
+        border-radius: 20px;
+    }
+
+    div.separateur2 {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 100px;
+        height: 3px;
+        border-radius: 30px;
+        background-color: black;
+    }
+
+    div.reseaux {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    div.reseaux img {
+        position: relative;
+        display:inline-block;
+        margin-right: 10px;
+        width: 60px;
+    }
+  }
